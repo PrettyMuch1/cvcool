@@ -1,0 +1,150 @@
+a{
+  color: #11999E;
+}
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color:#40514E;
+}
+.programmer{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h1 {
+
+  font-family: 'Caveat', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom:10px;
+}
+hr{
+
+  border-color: grey;
+  border-width: 5px;
+  border-style:dotted none none;
+  width: 4%;
+margin: 100px auto;
+}
+p{
+   line-height: 2;
+}
+.image1{
+  width: 300px;
+}
+.top-container {
+  background-color: #EAf6f6;
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+.skill-row{
+ width: 50%;
+ margin:100px auto 100px auto;
+ text-align: left;
+
+}
+.image2{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+.image3{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-link{
+  text-decoration: none;
+  margin: 10px 20px;
+  font-weight: bold;
+}
+.footer-link:hover{
+  color:#eaf6f6;
+}
+
+
+.middle-container{
+  margin: 100px 0;
+}
+.intro{
+  margin: auto;
+  width: 30%;
+
+}
+.copy{
+  color:#EAF6F6;
+  font-size:0.75rem;
+  padding:20px 0;
+}
+.css3button {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#11cdd4),
+		to(#11999e));
+	background: linear-gradient(
+		top,
+		#11cdd4 0%,
+		#11999e);
+	border-radius: 8px;
+	border: 0px solid #003366;
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0),
+		inset 0px 0px 1px rgba(255,255,255,0);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0),
+		0px 1px 0px rgba(255,255,255,0);
+
+}
+.css3button:HOVER{
+  cursor: pointer;
+  background: -webkit-gradient(
+    linear, left top, left bottom,
+    from(#30E3CB),
+    to(#2BC4AD));
+  background: linear-gradient(
+    top,
+    #30E3CB 0%,
+    #2BC4AD);
+}
